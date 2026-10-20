@@ -24,7 +24,7 @@ public class SpecialistDoctor extends Doctor{
 	
 	@Override
 	public double calculateMonthlyCompensation() {
-        double specialistBonus = patientsSeen * 60.0;
+        double specialistBonus = patientsSeen * 50.0;
         return monthlySalary + specialistBonus;
     }
 	@Override

@@ -19,7 +19,7 @@ public class Doctor extends MedicalStaff implements Reportable,Schedulable{
 	
 	@Override 
 	public double calculateMonthlyCompensation() {
-		double perfomanceAllowance = patientsSeen * 30.0;
+		double perfomanceAllowance = patientsSeen * 20.0;
 		return monthlySalary + perfomanceAllowance;
 	}
 	@Override 
